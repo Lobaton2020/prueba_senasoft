@@ -9,7 +9,7 @@
                     <form method="POST" action="<?php echo route("auth/login") ?>">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Correo</label>
-                            <input type="email" name="correo" class="form-control" placeholder="example@example.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" name="email" class="form-control" placeholder="example@example.com" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Contraseña</label>

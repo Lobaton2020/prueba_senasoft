@@ -5,7 +5,7 @@ class MainController extends Controller
     private $model;
     public function __construct()
     {
-        // $this->authentication();
+        $this->authentication();
         $this->model = $this->model("user");
     }
 

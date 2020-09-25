@@ -35,7 +35,7 @@ class User
             $stmt->execute();
             if ($stmt->rowCount() > 0) {
                 $data = $stmt->fetch();
-                dd($data);
+
                 if (password_verify($dataLogin->password, $data->password)) {
 
                     $_SESSION["credentials"] = [
